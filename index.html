@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vansh Ruhela - Portfolio</title>
+    <link rel="icon" href="https://via.placeholder.com/32/00ddeb/ffffff?text=YN" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <!-- Example nav structure -->
+<nav>
+  <button class="nav-toggle" aria-label="Open navigation">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+    <div class="hero-wrapper">
+        <div class="hero-container">
+            <div class="hero-text">
+                <p class="greeting">Hi, I'm <span class="your-name-highlight">Vansh Ruhela</span></p>
+                <h1 id="tagline" aria-live="polite">
+                    <span id="tagline-text"></span><span class="text-cursor"></span>
+                </h1>
+            </div>
+            <img src="my_photo2.png" alt="Vansh Ruhela - Professional Photo" class="hero-photo">
+        </div>
+    </div>
+
+    <section id="about" aria-labelledby="about-heading" class="visible">
+        <h2 id="about-heading">About Me</h2>
+        <div class="about-content">
+            <p>Hi, I'm Vansh Ruhela.
+I'm a web developer who loves creating clean, user-friendly digital experiences. I enjoy solving problems with DSA and bringing ideas to life through real-world projects.</p>
+        </div>
+    </section>
+
+    <section id="skills" aria-labelledby="skills-heading">
+        <h2 id="skills-heading">Skills</h2>
+        <div class="skills-grid" aria-label="My technical skills">
+            <div class="skill-card">
+                <i class="fas fa-leaf" aria-hidden="true"></i><span>MongoDB</span>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-node-js" aria-hidden="true"></i><span>Express.js</span>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-react" aria-hidden="true"></i><span>React.js</span>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-node-js" aria-hidden="true"></i><span>Node.js</span>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-wind" aria-hidden="true"></i><span>Tailwind CSS</span>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-html5" aria-hidden="true"></i><span>HTML</span>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-css3-alt" aria-hidden="true"></i><span>CSS</span>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-js" aria-hidden="true"></i><span>JavaScript</span>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-file-code" aria-hidden="true"></i><span>C</span>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-file-code" aria-hidden="true"></i><span>C++</span>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-java" aria-hidden="true"></i><span>Java</span>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-python" aria-hidden="true"></i><span>Python</span>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-git-alt" aria-hidden="true"></i><span>Git</span>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-database" aria-hidden="true"></i><span>SQL</span>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-php" aria-hidden="true"></i><span>PHP</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-heading">
+        <h2 id="projects-heading">Projects</h2>
+        <div class="project-carousel" role="region" aria-label="My projects carousel">
+            <div class="project-card" role="group" aria-roledescription="project">
+                <h3>Stock Market Price Prediction App using ML</h3>
+                <p>
+                    A machine learning-powered web application that predicts stock prices based on historical data and technical indicators. Features interactive charts, user-friendly interface, and real-time prediction results.
+                </p>
+            </div>
+            <div class="project-card" role="group" aria-roledescription="project">
+                <h3>Course Selling Website using MERN Stack</h3>
+                <p>
+                    A full-featured platform for selling online courses, built with MongoDB, Express, React, and Node.js. Includes user authentication, course management, and responsive design.
+                </p>
+            </div>
+            <div class="project-card" role="group" aria-roledescription="project">
+                <h3>Full Stack Blog Application using MERN Stack</h3>
+                <p>
+                    A modern blog application with rich text editing, user authentication, and CRUD operations. Built using the MERN stack, it supports comments, likes, and a responsive UI for seamless blogging.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact</h2>
+        <p>Reach out to me via email or connect on social media.</p>
+        <div class="social-links" aria-label="Social media links">
+            <a href="https://github.com/VanshRuhela09" target="_blank" title="GitHub" aria-label="My GitHub profile">
+                <i class="fab fa-github" aria-hidden="true"></i>
+                <div style="font-size:0.85rem; color:#fff; margin-top:2px;">GitHub</div>
+            </a>
+            <a href="https://www.linkedin.com/in/vansh-ruhela-389390264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" title="LinkedIn" aria-label="My LinkedIn profile">
+                <i class="fab fa-linkedin" aria-hidden="true"></i>
+                <div style="font-size:0.85rem; color:#fff; margin-top:2px;">LinkedIn</div>
+            </a>
+            <a href="https://leetcode.com/u/ruhelavansh170/" target="_blank" title="LeetCode" aria-label="My LeetCode profile">
+                <span style="font-size:1.5rem; color:#00ddeb; font-family:monospace; font-weight:bold; display:inline-block; line-height:50px;">&lt;/&gt;</span>
+                <div style="font-size:0.85rem; color:#fff; margin-top:2px;">LeetCode</div>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Vansh Ruhela. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
